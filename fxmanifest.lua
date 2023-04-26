@@ -23,5 +23,3 @@ version '1.0.0'
 shared_script 'config.lua'
 server_script 'versionchecker.lua'
 client_script 'client.lua'
-
-dependency '/onesync'
