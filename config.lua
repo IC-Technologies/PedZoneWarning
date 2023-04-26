@@ -1,26 +1,17 @@
-<h1>PedZoneWarning</h1>
 
- Check if a player is using a ped outside or inside of a zone and display a warning.
+    --[[
+    Copyright (C) 2023 ICTechnologies
 
- <h2>Features</h2>
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
- * Add multiple zones all with independent settings.
- * HUD **OR** Chat warnings!
- * Configuration support in our [discord](https://discord.gg/E44eKQmGsq)!
-
-<h2>Installation</h2>
-
- 1. Download from [github](https://github.com/IC-Technologies/PedZoneWarning/releases).
- 2. Extract.
- 3. Put into resources folder.
- 4. Add `start PedZoneWarning` in your server.cfg
- 5. Start the server/script.
- 6. Star in github 😉, Enjoy!
-
-
- <h2>Config</h2>
-
- ```lua
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    ]]
 Config = {
     Zones = {
         ["Spawn"] = {
@@ -55,4 +46,3 @@ Config = {
         },
     },
 }
- ```
