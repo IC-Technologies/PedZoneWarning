@@ -18,7 +18,7 @@ function GetCurrentVersion()
 end 
 
 -- Grabs the latest version number from the web GitHub
-PerformHttpRequest("https://raw.githubusercontent.com/IC-Technologies/PedZoneWarning/version.txt", function(error, updatedVersion, headers)
+PerformHttpRequest("https://raw.githubusercontent.com/IC-Technologies/PedZoneWarning/main/version.txt", function(error, updatedVersion, headers)
 	-- Wait to reduce spam 
 	Citizen.Wait(2500)
 
